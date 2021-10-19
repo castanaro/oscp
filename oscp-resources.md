@@ -50,21 +50,15 @@
 6. Recursively enumerate any interesting web directories and run nikto (where applicable)
 7. Searchsploit and Google all discovered services - don't be afraid to try exploits for versions > discovered version (i.e., version of service is 14.0, you can try exploit for version 15.0 in case)
 8. Try default creds everywhere… try bruteforcing ftp even if anon:anon found (Hydra is helpful, but as a last resort ESPECIALLY with Postgres, manually type these in)
-  1. Admin:admin 
-  2. Guest:guest
-  3. Administrator:administrator
-  4. Anonymous:anonymous
-  5. Root:root
-  6. TRY THE [NAME OF SERVICE]:[NAME OF SERVICE] - Think back on BillyBoss - creds were nexus:nexus
+   1. Admin:admin 
+   2. Guest:guest
+   3. Administrator:administrator
+   4. Anonymous:anonymous
+   5. Root:root
+   6. TRY THE [NAME OF SERVICE]:[NAME OF SERVICE] - Think back on BillyBoss - creds were nexus:nexus
 9. ALWAYS LOOK FOR HIDDEN FILES IN EVERY DIRECTORY
 10. If you find an smbshare, last resort, try to navigate to a url with that name as a directory e.g., http://[IP]/sharename (wouldn't hurt to also throw any unique names such as the name of the box into the common.txt wordlist so it searches on it as well…)
 11. Don't forget about sql injection :)
 12. Look at source code for creds
-
-#get rid of numbered list
-
-1. Item 1
-   1. sub item 1
-   2. sub item 2
 
 #### more to come...

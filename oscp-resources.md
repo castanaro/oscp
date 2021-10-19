@@ -48,17 +48,18 @@
 4. Run legion as backup (optional)
 5. Run nmap -sU --top-ports 30 (and 100) to confirm UDP (or look at autorecon udp results)
 6. Recursively enumerate any interesting web directories and run nikto (where applicable)
-7. Searchsploit and Google all discovered services - don't be afraid to try exploits for versions > discovered version (i.e., version of service is 14.0, you can try exploit for version 15.0 in case)
-8. Try default creds everywhere… try bruteforcing ftp even if anon:anon found (Hydra is helpful, but as a last resort ESPECIALLY with Postgres, manually type these in)
-   1. Admin:admin 
-   2. Guest:guest
-   3. Administrator:administrator
-   4. Anonymous:anonymous
-   5. Root:root
-   6. TRY THE [NAME OF SERVICE]:[NAME OF SERVICE] - Think back on BillyBoss - creds were nexus:nexus
-9. ALWAYS LOOK FOR HIDDEN FILES IN EVERY DIRECTORY
-10. If you find an smbshare, last resort, try to navigate to a url with that name as a directory e.g., http://[IP]/sharename (wouldn't hurt to also throw any unique names such as the name of the box into the common.txt wordlist so it searches on it as well…)
-11. Don't forget about sql injection :)
+7. Searchsploit and Google all discovered services (don't be afraid to try unverified exploits)
+8. Try default creds wherever possible
+   1. admin:admin 
+   2. guest:guest
+   3. administrator:administrator
+   4. anonymous:anonymous
+   5. root:root
+   6. name-of-box:name-of-box
+   7. name-of-service:name-of-service
+9. See if there are hidden files
+10. Navigate to SMB shares in the browser as a last resort (e.g., http://[IP]/sharename)
+11. Don't forget about SQL Injection
 12. Look at source code for creds
 
 #### more to come...

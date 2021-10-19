@@ -1,6 +1,6 @@
 Helpful OSCP (and day-to-day hacking) Resources:
 
-# ###Target Enum###
+# Target Enum
 
 * scan-Pn() and Vuln() bash functions (see helpful-aliases file within this repo to see which scripts I used for scanning)
 * Autorecon

@@ -61,5 +61,8 @@
 11. Don't forget about sql injection :)
 12. Look at source code for creds
 
+1. testing ordered lists
+  2. first sub
+  3. second sub
 
 #### more to come...

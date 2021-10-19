@@ -1,11 +1,11 @@
-Helpful OSCP (and day-to-day hacking) Resources:
+# OSCP (and day-to-day hacking) Resources:
 
-# Target Enum
+## Target Enum
 
 * scan-Pn() and vuln() bash functions (see helpful-aliases file within this repo to view these functions)
 * Autorecon
 
-# Web Enum
+## Web Enum
 
 * Fuzz Faster U Fool (FFUF): a tool written in Go for directory enumeration (use with common.txt, directory lists medium and big)
 * Nikto

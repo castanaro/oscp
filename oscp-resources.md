@@ -22,15 +22,15 @@ Helpful OSCP (and day-to-day hacking) Resources:
 
 # General Tools/References
 
+* IppSec (The Master): https://ippsec.rocks/?#
+* HackTricks: https://book.hacktricks.xyz/
+* Sushant's Total OSCP Guide: https://sushant747.gitbooks.io/total-oscp-guide/content/
 * Reverse Shell Generation: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 * Web Shell: https://github.com/WhiteWinterWolf/wwwolf-php-webshell
 * Hydra
 * Burp
 * Hashcat
 * Wireshark
-* IppSec (The Master): https://ippsec.rocks/?#
-* HackTricks: https://book.hacktricks.xyz/
-* Sushant's Total OSCP Guide: https://sushant747.gitbooks.io/total-oscp-guide/content/
 
 # Hacking Platforms
 

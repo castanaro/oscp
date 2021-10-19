@@ -5,6 +5,7 @@ alias burp='/usr/bin/burpsuite'
 alias transfer='sudo python2 -m SimpleHTTPServer'
 alias transfer3='sudo python3 -m http.server'
 alias gopher='cd /home/kali/go'
+alias source='source ~/.zshrc' #(or ~/.bashrc depending on shell)
 
 ###functions###
 

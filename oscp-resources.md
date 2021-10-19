@@ -34,10 +34,10 @@ Sushant's Total OSCP Guide: https://sushant747.gitbooks.io/total-oscp-guide/cont
 
 ###Hacking Platforms###
 
-*Proving Grounds (Offsec's HTB Platform)
-*Virtual Hacking Labs
-*Hack the Box
-*OSCP Labs
-*Try Hack Me (BoF Room)
+* Proving Grounds (Offsec's HTB Platform)
+* Virtual Hacking Labs
+* Hack the Box
+* OSCP Labs
+* Try Hack Me (BoF Room)
 
 #more to come#

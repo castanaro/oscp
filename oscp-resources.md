@@ -62,7 +62,7 @@
 12. Look at source code for creds
 
 1. testing ordered lists
-  2. first sub
-  3. second sub
+    2. first sub
+    3. second sub
 
 #### more to come...

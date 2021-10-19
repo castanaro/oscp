@@ -2,14 +2,14 @@ Helpful OSCP (and day-to-day hacking) Resources:
 
 # Target Enum
 
-* scan-Pn() and Vuln() bash functions (see helpful-aliases file within this repo to see which scripts I used for scanning)
+* scan-Pn() and vuln() bash functions (see helpful-aliases file within this repo to view these functions)
 * Autorecon
 
 # Web Enum
 
 * Fuzz Faster U Fool (FFUF): a tool written in Go for directory enumeration (use with common.txt, directory lists medium and big)
-* nikto
-* davtest
+* Nikto
+* Davtest
 
 # Priv Esc
 
@@ -24,10 +24,10 @@ Helpful OSCP (and day-to-day hacking) Resources:
 
 * Reverse Shell Generation: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 * Web Shell: https://github.com/WhiteWinterWolf/wwwolf-php-webshell
-* hydra
-* burp
-* hashcat
-* wireshark
+* Hydra
+* Burp
+* Hashcat
+* Wireshark
 * IppSec (The Master): https://ippsec.rocks/?#
 * HackTricks: https://book.hacktricks.xyz/
 * Sushant's Total OSCP Guide: https://sushant747.gitbooks.io/total-oscp-guide/content/

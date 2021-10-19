@@ -5,13 +5,13 @@
 * scan-Pn() and vuln() bash functions (see helpful-aliases file within this repo to view these functions)
 * Autorecon
 
-## Web Enum
+### Web Enum
 
 * Fuzz Faster U Fool (FFUF): a tool written in Go for directory enumeration (use with common.txt, directory lists medium and big)
 * Nikto
 * Davtest
 
-# Priv Esc
+### Priv Esc
 
 * Tiberius' Udemy Priv Esc Courses
 * Linux Smart Enum: https://github.com/diego-treitos/linux-smart-enumeration
@@ -20,7 +20,7 @@
 * Linux: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 * Windows: https://www.fuzzysecurity.com/tutorials/16.html
 
-# General Tools/References
+### General Tools/References
 
 * HackTricks: https://book.hacktricks.xyz/
 * Sushant's Total OSCP Guide: https://sushant747.gitbooks.io/total-oscp-guide/content/
@@ -32,7 +32,7 @@
 * Hashcat
 * Wireshark
 
-# Hacking Platforms
+### Hacking Platforms
 
 * Proving Grounds (Offsec's HTB Platform)
 * Virtual Hacking Labs
@@ -40,4 +40,4 @@
 * OSCP Labs
 * Try Hack Me (BoF Room)
 
-# more to come...
+#### more to come...

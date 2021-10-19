@@ -1,0 +1,30 @@
+###aliases###
+
+alias listen='sudo netstat -tulpn'
+alias burp='/usr/bin/burpsuite'
+alias transfer='sudo python2 -m SimpleHTTPServer'
+alias transfer3='sudo python3 -m http.server'
+alias gopher='cd /home/kali/go'
+
+###functions###
+
+#enable host discovery
+scan() {
+
+        sudo nmap -sC -sV -A -T4 -vvv -p- -oA "$1" "$2"
+
+}
+
+#disable host discovery
+scan-Pn() {
+
+        sudo nmap -sC -sV -A -T4 -vvv -p- -Pn -oA "$1" "$2"
+
+}
+
+#vuln scanning with nse scripts
+vuln() {
+
+        sudo nmap --script vuln -p- -Pn -oA "$1" "$2"
+
+}

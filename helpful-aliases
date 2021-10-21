@@ -1,3 +1,6 @@
+#add this to your ~/.bashrc or ~/.zshrc file
+
+
 ###aliases###
 
 alias listen='sudo netstat -tulpn'

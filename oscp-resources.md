@@ -43,7 +43,7 @@
 ### Personal OSCP Approach
 
 1. Run scan-Pn function (see target enum section above)
-2. Run vuln (see bashrc for alias)
+2. Run vuln (see target enum section above)
 3. Run autorecon (AS SUDO)
 4. Run legion as backup (optional)
 5. Run nmap -sU --top-ports 30 (and 100) to confirm UDP (or look at autorecon udp results)
